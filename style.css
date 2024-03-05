@@ -1,0 +1,76 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('background-desktop.png');
+    background-size: cover;
+    background-position: center;
+}
+@nedia (max-width: 767px) {
+    body {
+        background-image: url('background-mobile.png');
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+header {
+    background-color: #f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+header img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+ nav li {
+    margin-right: 20px;
+ }
+
+ nav a imgm, 
+ .instagram-logo,
+ .facebook-logo,
+  .behance-loto,
+  .deviantart-logo,
+  .pinterest-logo {
+    width: 30px;
+    height: 30px;
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+ }
+
+nav a:hover img,
+.instagram-logo:hover,
+.facebook-logo:hover,
+.behance-loto:hover,
+.deviantart-logo:hover,
+.pinterest-logo:hover {
+    opacity:0.8;
+}
+
+.flip-icon-container {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
